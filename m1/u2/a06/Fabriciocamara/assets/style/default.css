@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    background: #acd8e7;
+}
+
+h1{
+    color: white;
+    margin-left: 40px;
+}
+
+p{
+    font-weight: bold;
+    margin-left: 10px;
+}
