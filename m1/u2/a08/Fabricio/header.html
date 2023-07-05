@@ -6,20 +6,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="../@content/assets/css/header.css">
     <style>
-
         body{
             background-color: #e8e8e8;
             margin: 0;
             padding: 0;
         }
-        .header{
+        .header {
             background-color: white;
             border-bottom: 1px solid #f0f0f0;
             height: 100px;
             box-shadow: 0 2px 5px 1px rgba(64, 60, 67, .16);
         }
-        .header_conteiner{
-            max-width: 90vh;
+        .header_conteiner {
+            max-width: 90vw;
             margin: 0 auto;
             padding: 20px 0;
             display: flex;
@@ -27,12 +26,15 @@
             align-items: center;
         } 
 
-        .header_logo{
+        .header_logo {
             display: flex;
             align-items: center;
             gap: 0.5rem;
             color: #c92071;
-            
+        }
+
+        .header_logo_title {
+            margin: 0;
         }
 
     </style>
@@ -42,12 +44,13 @@
         <div class="header_conteiner">
             <div class="header_logo">
                 <img src="../@content/assets/images/logo.png" alt="">
-                <h1>Digital Store</h1>  
+                <h1 class="header_logo_title">Digital Store</h1>  
             </div>
             <div class="header_search">
-                Pesquisa
+                <input type="search" placeholder="Pesquisar produto...">
             </div>
             <div class="herder_actions">
+                <a href="#">Cadastra-se</a>
                 <button>
                     Entra
                 </button>
